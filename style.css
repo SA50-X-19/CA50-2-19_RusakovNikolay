@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none ;
+    box-sizing: border-box;
+  }
+  #BOX1 {
+    height: 500px;
+    
+  }
+  .block {
+    position:relative;
+    margin: auto;
+    width: 80%;
+    top: 50px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+  .box {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    color: rgb(255, 255, 255);
+  }
+  #box1 {
+    position: relative;
+    top: 78px;
+    left: 200px;
+    border:red;
+    border-style: solid;
+  }
+  #box2 {
+    position: relative;
+    top: 200px;
+    left: 207px;
+    border:blue;
+    border-style: solid;
+  }
+  #box3 {
+    position: relative;
+    top: 325px;
+    left: 208px;
+    border: green;
+    border-style: solid;
+  }
